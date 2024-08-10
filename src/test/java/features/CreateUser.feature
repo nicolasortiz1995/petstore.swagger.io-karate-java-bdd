@@ -1,4 +1,4 @@
-Feature: User Management
+Feature: Create an user
 
   Background: The Request Body Configuration
     * url baseUrl

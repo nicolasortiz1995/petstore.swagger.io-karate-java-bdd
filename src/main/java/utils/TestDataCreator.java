@@ -3,10 +3,14 @@ package utils;
 import com.github.javafaker.Faker;
 
 /**
- * The {@code TestDataCreator} class is a utility class that provides methods for generating
- * random test data using the Faker library. This class includes methods for creating 
- * random IDs, usernames, first names, last names, email addresses, passwords, and phone numbers.
- * The generated data can be used in testing scenarios where unique or random values are needed.
+ * The {@code TestDataCreator} class is a utility class that provides methods
+ * for generating
+ * random test data using the Faker library. This class includes methods for
+ * creating
+ * random IDs, usernames, first names, last names, email addresses, passwords,
+ * and phone numbers.
+ * The generated data can be used in testing scenarios where unique or random
+ * values are needed.
  */
 public class TestDataCreator {
 
@@ -85,6 +89,15 @@ public class TestDataCreator {
      */
     public static Faker getFaker() {
         return faker;
+    }
+
+    /**
+     * Returns the current {@code Faker} instance.
+     *
+     * @return the current {@code Faker} instance.
+     */
+    public static int[] getStatusInt() {
+        return new int[] { 0, 1, 2 };
     }
 
     /**
