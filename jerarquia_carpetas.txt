@@ -1,0 +1,97 @@
+Listado de rutas de carpetas
+El n£mero de serie del volumen es 8CF5-4896
+C:.
+|   .gitignore
+|   jerarquia_carpetas.txt
+|   pom.xml
+|   README.md
+|   
++---.idea
+|       .gitignore
+|       misc.xml
+|       modules.xml
+|       petstore.swagger.io-karate-java-bdd.iml
+|       vcs.xml
+|       workspace.xml
+|       
++---.vscode
+|       settings.json
+|       
++---src
+|   +---main
+|   |   \---java
+|   |       \---utils
+|   |               TestDataCreator.java
+|   |               
+|   \---test
+|       \---java
+|           |   karate-config.js
+|           |   
+|           +---features
+|           |       CreateUser.feature
+|           |       DeleteUser.feature
+|           |       FindUpdatedUser.feature
+|           |       FindUser.feature
+|           |       UpdateNameMailUser.feature
+|           |       
+|           +---payload
+|           |       CreateUserPayload.json
+|           |       UpdateUserPayload.json
+|           |       
+|           \---runner
+|                   TestRunner.java
+|                   
+\---target
+    +---classes
+    |   \---utils
+    |           TestDataCreator.class
+    |           
+    +---karate-reports
+    |   |   favicon.ico
+    |   |   features.CreateUser.html
+    |   |   features.CreateUser.karate-json.txt
+    |   |   features.DeleteUser.html
+    |   |   features.DeleteUser.karate-json.txt
+    |   |   features.FindUpdatedUser.html
+    |   |   features.FindUpdatedUser.karate-json.txt
+    |   |   features.FindUser.html
+    |   |   features.FindUser.karate-json.txt
+    |   |   features.UpdateNameMailUser.html
+    |   |   features.UpdateNameMailUser.karate-json.txt
+    |   |   karate-labs-logo-ring.svg
+    |   |   karate-logo.png
+    |   |   karate-logo.svg
+    |   |   karate-progress-json.txt
+    |   |   karate-summary-json.txt
+    |   |   karate-summary.html
+    |   |   karate-tags.html
+    |   |   karate-timeline.html
+    |   |   
+    |   \---res
+    |           bootstrap.min.css
+    |           bootstrap.min.js
+    |           jquery.min.js
+    |           jquery.tablesorter.min.js
+    |           karate-report.css
+    |           karate-report.js
+    |           vis.min.css
+    |           vis.min.js
+    |           
+    \---test-classes
+        |   karate-config.js
+        |   
+        +---features
+        |       CreateUser.feature
+        |       DeleteUser.feature
+        |       FindUpdatedUser.feature
+        |       FindUser.feature
+        |       UpdateNameMailUser.feature
+        |       
+        +---payload
+        |       CreateUserPayload.json
+        |       UpdateUserPayload.json
+        |       
+        \---runner
+                TestRunner.class
+                TestRunner.java
+                

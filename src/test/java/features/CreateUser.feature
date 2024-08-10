@@ -22,8 +22,3 @@ Feature: Create an user
     And match $.type == 'unknown'
     And match $.message != null
     * print response
-
-
-
-
-

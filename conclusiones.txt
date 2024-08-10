@@ -1,0 +1,17 @@
+# Conclusiones
+En el desarrollo de este proyecto de automatización, he simulado un entorno de trabajo basado en la metodología Scrum, lo que me permitió seguir el progreso y la evolución de los servicios.
+
+Feature: CreateUser
+Me centré en automatizar el proceso de creación de usuarios. Utilicé la librería Faker para generar datos dinámicos, asegurando que cada prueba use información única. Verifiqué que la API responda correctamente y que el usuario se cree con éxito.
+
+Feature: FindUser
+En esta prueba, validé que un usuario recién creado se pueda recuperar correctamente. Después de crear el usuario con datos dinámicos, consulté la API para asegurarme de que los detalles coincidan con los datos enviados inicialmente.
+
+Feature: UpdateNameMailUser
+Automaticé la actualización del nombre y correo electrónico de un usuario existente. Tras crear el usuario, actualicé su nombre y correo, y verifiqué que los cambios se reflejaran correctamente al consultar la API.
+
+Feature: FindUpdatedUser
+En esta feature, validé que los cambios realizados en un usuario se pudieran recuperar correctamente. Primero, creé un usuario y luego actualicé sus datos. Finalmente, verifiqué que la API devolviera la información actualizada.
+
+Feature: DeleteUser
+Automaticé la eliminación de un usuario existente y verifiqué que la API lo eliminara correctamente. Creé un usuario, luego lo eliminé, y comprobé que no se pudiera recuperar al consultar la API.
