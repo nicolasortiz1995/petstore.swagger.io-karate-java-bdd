@@ -1,5 +1,6 @@
 # Instrucciones de Configuración
-1. **Instalación de dependencias de Maven**:
+- Clonar Repositorio/: git clone https://github.com/nicolasortiz1995/petstore.swagger.io-karate-java-bdd.git
+- **Instalación de dependencias de Maven**:
    - Asegúrate de tener [Maven](https://maven.apache.org) instalado.
    - Ejecuta `mvn clean install` para instalar todas las dependencias del proyecto y compilar el código.
 
